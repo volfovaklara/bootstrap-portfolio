@@ -1,0 +1,134 @@
+/*Custom Typography*/
+@font-face {
+    font-family: Metropolis;
+    src: url(/fonts/Metropolis/Metropolis-Medium.otf);
+}
+
+@font-face {
+    font-family: Metropolis;
+    font-weight: bold;
+    src: url(/fonts/Metropolis/Metropolis-Bold.otf);
+}
+
+:root {
+    --background-colour: #EAE0D5;
+    --text-colour: #0A0908;
+    --button-colour: #90323D;
+    --complimentary-colour: #6B8F71;
+}
+
+body {
+    font-family: Metropolis, sans-serif;
+    background-color: var(--background-colour);
+    color: var(--text-colour);
+}
+
+.customBack {
+    background-image: url(/images/background-image4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+}
+
+.customShape {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.content {
+    padding: 50px;
+}
+
+.card {
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.cardContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-title {
+    border-bottom: 1px solid #0A0908;
+}
+
+.recentProjects {
+   padding: 0px 30px 30px 30px;
+}
+
+.resumeButton {
+    background-color: var(--background-colour);
+    border: 1px solid #0A0908;
+    border-color: var(--text-colour);
+    color: var(--text-colour);
+}
+
+.resumeButton:hover {
+    background-color: #F1EBE4;
+    border-color: var(--text-colour);
+}
+
+.resumeButton:active {
+    background-color: var(--button-colour)!important;
+    border-color: var(--text-colour);
+}
+
+.customButton {
+    background-color: var(--complimentary-colour);
+    border-color: var(--complimentary-colour);
+}
+
+.customButton:hover {
+    background-color: #7F9F84;
+    border-color: #7F9F84;
+}
+
+.customButton:active {
+    background-color: var(--button-colour)!important;
+    border-color: var(--button-colour);
+}
+
+.customNav {
+    background-color: var(--background-colour);
+}
+
+.sectionHeading {
+    font-size: 40
+    px;
+    text-align: center;
+    margin: 5px;
+}
+
+footer {
+    border: 1px solid #0A0908;
+    margin: 15px;
+}
+
+.customFooter {
+    justify-content: center!important;
+}
+
+/*Style all icons*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*Add a hover effect*/
+.fa:hover {
+    opacity: 0.7;
+}
+  
