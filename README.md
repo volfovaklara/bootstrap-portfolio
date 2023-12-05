@@ -3,7 +3,7 @@
 ### Description
 In this project I utilised my skills of Bootstrap 5 framework and build a "better" version of my student porfolio.
 
-[Deployed Application](https://volfovaklara.github.io/bootcamp-challenge-1/)
+[Deployed Application](https://volfovaklara.github.io/bootstrap-portfolio/)
 
 ### Table of Contents
 * [User Story](#user-story) 
